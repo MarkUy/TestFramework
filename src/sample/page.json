@@ -1,0 +1,18 @@
+{
+  "driver": "Chrome",
+  "url": "http://www.python.org",
+  "elements": {
+    "search": {
+      "by" : "name",
+      "query": "q"
+    },
+    "downloads": {
+      "by" : "xpath",
+      "query": "//a[@href='/downloads/']"
+    },
+    "about": {
+      "by" : "xpath",
+      "query": "//a[@href='/about/']"
+    }
+  }
+}
